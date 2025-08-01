@@ -153,7 +153,7 @@ export default function ChatInterface({ mode = 'database', toggleSidebar, isSide
   // }
 
   const handleSuggestionClick = async (suggestion: string) => {
-    if (!activeThreadId || !tenant_id) return
+    if (!activeThreadId || !tenant_id) return//thys
 
     // if (currentMode === 'document' && selectedFiles.length === 0) {
     //   alert("Please upload at least one document")
